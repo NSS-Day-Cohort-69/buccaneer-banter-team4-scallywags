@@ -11,10 +11,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        pirate: ['Pirata One', 'serif'],
-        serif: ['Averia Serif Libre', 'serif'],
+        pirate: ["Pirata One", "serif"],
+        serif: ["Averia Serif Libre", "serif"],
       },
     },
   },
   plugins: [],
-}
+};
