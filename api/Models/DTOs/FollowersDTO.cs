@@ -1,6 +1,6 @@
-namespace B.Banter
+namespace B.Banter.DTOs
 
-public class Followers
+public class FollowersDTO
 {
     public int Id {get;set;}
     public int PirateId {get;set;}
