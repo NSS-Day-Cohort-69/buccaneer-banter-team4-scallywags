@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+    background-color: aliceblue;
+    border-bottom: 1px dotted lightblue;
+    margin: 0 0 0.5rem 0;
+}
+
+.brand {
+    font-size: 1.3rem;
+}
+
+.logout {
+    margin-left: auto;
+}
+
+.login {
+    margin-top: 2rem;
+}

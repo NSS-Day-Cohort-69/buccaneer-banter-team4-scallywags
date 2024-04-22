@@ -1,0 +1,10 @@
+.story {
+    border: 1px solid rgb(166, 196, 222);
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 0.33rem;
+}
+
+.story__content {
+    margin: 1rem 0;
+}

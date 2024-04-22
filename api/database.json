@@ -1,0 +1,229 @@
+{
+  "pirates": [
+    {
+      "id": 1,
+      "name": "Blackbeard",
+      "age": 42,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Queen Anne's Revenge",
+      "image_url": "https://photos1.blogger.com/blogger/5580/2256/1600/pirate-profile.0.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Anne Bonny",
+      "age": 29,
+      "nationality": "Irish",
+      "rank": "Pirate",
+      "ship": "Ranger",
+      "image_url": "https://example.com/anne-bonny.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Calico Jack",
+      "age": 37,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "The Revenge",
+      "image_url": "https://i.pinimg.com/736x/05/29/84/052984797e028fc5526ec780d80e93d7.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Captain Kidd",
+      "age": 47,
+      "nationality": "Scottish",
+      "rank": "Captain",
+      "ship": "Adventure Galley",
+      "image_url": "https://example.com/captain-kidd.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Charles Vane",
+      "age": 39,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Ranger",
+      "image_url": "https://avatarfiles.alphacoders.com/217/217786.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Edward England",
+      "age": 42,
+      "nationality": "Welsh",
+      "rank": "Captain",
+      "ship": "Pearl",
+      "image_url": "https://example.com/edward-england.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Edward Teach",
+      "age": 38,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Queen Anne's Revenge",
+      "image_url": "https://example.com/edward-teach.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Henry Avery",
+      "age": 41,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Fancy",
+      "image_url": "https://example.com/henry-avery.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Henry Morgan",
+      "age": 53,
+      "nationality": "Welsh",
+      "rank": "Captain",
+      "ship": "Satisfaction",
+      "image_url": "https://example.com/henry-morgan.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Jack Rackham",
+      "age": 37,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "The Revenge",
+      "image_url": "https://example.com/jack-rackham.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Mary Read",
+      "age": 32,
+      "nationality": "English",
+      "rank": "Pirate",
+      "ship": "Ranger",
+      "image_url": "https://i.pinimg.com/originals/b7/c1/f1/b7c1f161dd713ec132b88d5350357030.jpg"
+    },
+    {
+      "name": "John Drake",
+      "rank": "Buccaneer",
+      "ship": "Blue Midnight",
+      "id": 51
+    }
+  ],
+  "stories": [
+    {
+      "id": 2,
+      "pirateId": 8,
+      "title": "The Ghost Ship",
+      "content": "The crew of the merchant ship Mary Celeste were found mysteriously missing, leaving the ship and its valuable cargo untouched. It's been said that the ship still sails the seas, haunting those who cross its path.",
+      "date": "1718-09-01"
+    },
+    {
+      "id": 3,
+      "pirateId": 3,
+      "title": "The Kraken",
+      "content": "The Kraken, a massive sea monster, has been the subject of many pirate tales. Its tentacles can stretch for miles and it can easily capsize even the largest ships. Many pirates have met their end at the hands of this fearsome creature.",
+      "date": "1718-11-22"
+    },
+    {
+      "id": 149,
+      "pirateId": 50,
+      "title": "The Curse of the Flying Dutchman",
+      "content": "Legend had it that the Flying Dutchman was cursed to sail the seas forever, its crew doomed to an eternal existence as undead pirates. But when a group of adventurers stumbled upon the ship one stormy night, they found that the curse was all too real. Now they must find a way to break the curse before it's too late.",
+      "date": "1722-10-15"
+    },
+    {
+      "id": 56,
+      "title": "The Battle of Blackbeard's Bay",
+      "content": "It was a fierce battle that raged on for hours. The sound of cannons and the clash of swords echoed across the bay. The pirates fought with all their might, determined to come out on top. In the end, it was Blackbeard's crew that emerged victorious, with a chest full of treasure to show for it.",
+      "pirateId": 2,
+      "date": "1718-09-01"
+    },
+    {
+      "id": 57,
+      "title": "The Curse of the Kraken",
+      "content": "Legend had it that the Kraken would rise from the depths of the ocean to claim any ship that sailed too close to its lair. The crew of the Black Pearl had heard the tales, but they didn't believe them. That was until they saw the monstrous creature rise from the waves, its tentacles reaching out to grab them. They fought with all their might, but in the end, only a few managed to escape with their lives.",
+      "pirateId": 5,
+      "date": "1718-09-01"
+    },
+    {
+      "id": 58,
+      "title": "The Treasure of Captain Kidd",
+      "content": "Captain Kidd had buried his treasure on a deserted island, but he had left behind a map that would lead to its location. Many pirates had tried to find the treasure, but none had succeeded. That was until Captain Jack Sparrow got his hands on the map. He and his crew set sail for the island, and after days of searching, they finally found the treasure. It was more gold than they could ever have imagined.",
+      "pirateId": 3,
+      "date": "1725-05-30"
+    },
+    {
+      "id": 59,
+      "title": "The Betrayal of Black Bart",
+      "content": "Black Bart was known as one of the fiercest pirates on the high seas. His crew was loyal to him, and they would follow him to the ends of the earth. Or so he thought. One night, while they were anchored off the coast of Jamaica, his first mate led a mutiny against him. Bart fought bravely, but in the end, he was overpowered. He was left marooned on a deserted island, while his crew sailed off with all his treasure.",
+      "pirateId": 4,
+      "date": "1722-06-22"
+    },
+    {
+      "id": 60,
+      "title": "The Revenge of Calico Jack",
+      "content": "Calico Jack had been captured by the British Navy and sentenced to hang. But he managed to escape and vowed revenge against the captain who had betrayed him. He spent months planning his revenge, gathering a crew of loyal men and plotting his attack. Finally, the day arrived, and he and his crew stormed the captain's ship. They fought fiercely, but in the end, it was Calico Jack who emerged victorious. He sailed off into the sunset, a hero to his crew and a thorn in the side of the British Navy.",
+      "pirateId": 9,
+      "date": "1742-08-15"
+    }
+  ],
+  "followers": [
+    {
+      "id": 1,
+      "pirateId": 1,
+      "followerId": 2
+    },
+    {
+      "id": 2,
+      "pirateId": 1,
+      "followerId": 3
+    },
+    {
+      "id": 3,
+      "pirateId": 2,
+      "followerId": 1
+    },
+    {
+      "id": 4,
+      "pirateId": 2,
+      "followerId": 3
+    },
+    {
+      "id": 5,
+      "pirateId": 3,
+      "followerId": 1
+    },
+    {
+      "id": 6,
+      "pirateId": 3,
+      "followerId": 2
+    },
+    {
+      "id": 7,
+      "pirateId": 50,
+      "followerId": 2
+    },
+    {
+      "id": 8,
+      "pirateId": 50,
+      "followerId": 3
+    },
+    {
+      "pirateId": 1,
+      "followerId": 1,
+      "id": 9
+    },
+    {
+      "pirateId": 1,
+      "followerId": 1,
+      "id": 10
+    },
+    {
+      "pirateId": 50,
+      "followerId": 5,
+      "id": 13
+    },
+    {
+      "pirateId": 7,
+      "followerId": 5,
+      "id": 14
+    }
+  ]
+}
