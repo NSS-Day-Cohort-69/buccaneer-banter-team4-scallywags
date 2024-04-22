@@ -1,4 +1,4 @@
-namespace B.Banter;
+namespace B.Banter.Models;
 
 public class Pirate
 {
@@ -7,6 +7,6 @@ public class Pirate
     public int? Age { get; set; }
     public string? Nationality { get; set; }
     public string Rank { get; set; }
-    public string Ship { get ; set; }
+    public string Ship { get; set; }
     public string? Image_Url { get; set; }
 }
