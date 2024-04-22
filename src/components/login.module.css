@@ -1,0 +1,15 @@
+.login__wrapper {
+    background-image: url("/images/pirate-map.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .login__form {
+    background-color: whitesmoke;
+  }

@@ -1,0 +1,26 @@
+
+.captainsLog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.log__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    padding: 0 2rem;
+}
+
+.log__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.log__favorites {
+    padding: 0.5rem;
+    margin: 2rem 0 0 0;
+}
