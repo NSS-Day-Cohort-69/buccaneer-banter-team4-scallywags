@@ -1,0 +1,6 @@
+@team4scallywags_HostAddress = http://localhost:5245
+
+GET {{team4scallywags_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
