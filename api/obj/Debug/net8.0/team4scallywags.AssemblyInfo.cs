@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("team4scallywags")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81ff7ed2fbbbb8ef6d9260d946eacbdb8ebad60f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48368dc2ca39f8a260218b2c7be77d59644b644b")]
 [assembly: System.Reflection.AssemblyProductAttribute("team4scallywags")]
 [assembly: System.Reflection.AssemblyTitleAttribute("team4scallywags")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
