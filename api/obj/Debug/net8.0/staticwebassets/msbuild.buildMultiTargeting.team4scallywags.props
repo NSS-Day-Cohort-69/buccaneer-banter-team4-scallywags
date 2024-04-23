@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\team4scallywags.props" />
+</Project>

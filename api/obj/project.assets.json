@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jayme\\.nuget\\packages\\": {}
+    "C:\\Users\\kayce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jayme\\workspace\\csharp\\buccaneer-banter-team4-scallywags\\team4scallywags\\team4scallywags.csproj",
+      "projectUniqueName": "C:\\Users\\kayce\\workspace\\csharp\\Buccaneer-banter-team4-scallywags\\api\\team4scallywags.csproj",
       "projectName": "team4scallywags",
-      "projectPath": "C:\\Users\\jayme\\workspace\\csharp\\buccaneer-banter-team4-scallywags\\team4scallywags\\team4scallywags.csproj",
-      "packagesPath": "C:\\Users\\jayme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jayme\\workspace\\csharp\\buccaneer-banter-team4-scallywags\\team4scallywags\\obj\\",
+      "projectPath": "C:\\Users\\kayce\\workspace\\csharp\\Buccaneer-banter-team4-scallywags\\api\\team4scallywags.csproj",
+      "packagesPath": "C:\\Users\\kayce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kayce\\workspace\\csharp\\Buccaneer-banter-team4-scallywags\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jayme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kayce\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
