@@ -5,8 +5,8 @@ import styles from "./storyfooter.module.css"
 import { useContext, useEffect, useRef, useState } from 'react'
 import { StoryContext } from './storylist.js'
 
-const follow = (follower, following, action) => {
-    fetch(`http://localhost:8088/followers`, {
+const follow = async(follower, following, action) => {
+    await fetch(`https://localhost:7128/followers`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -14,20 +14,19 @@ const follow = (follower, following, action) => {
             pirateId: parseInt(following)
         })
     })
-        .then(response => response.json())
-        .then(() => action(parseInt(follower)))
+        .then(async response => await response.json())
+        .then(async () => await action(parseInt(follower)))
 }
 
-const unfollow = (follower, following, action) => {
-    fetch(`http://localhost:8088/followers?followerId=${follower}&pirateId=${following}`)
-        .then(response => response.json())
-        .then(matchArray => {
-            const matchId = matchArray[0].id
+const unfollow = async(follower, following, action) => {
+   const initialFetch = await fetch(`https://localhost:7128/followers?fId=${follower}&pId=${following}`)
+        const response =  await initialFetch.json()
+        const matchArray = await response[0].id
 
-            fetch(`http://localhost:8088/followers/${matchId}`, {
+            fetch(`https://localhost:7128/followers/${matchArray}`, {
                 method: "DELETE"
             }).then(() => action(parseInt(follower)))
-        })
+        
 }
 
 
