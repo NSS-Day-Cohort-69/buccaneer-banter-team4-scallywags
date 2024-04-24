@@ -7,21 +7,30 @@ export default function Dashboard() {
     const [currentPirate, setCurrentPirate] = useState({ id: 0 })
     const [myFavoriteScallywags, setScallyWags] = useState([])
 
-    const getPirate = (id) => {
-        fetch(`http://localhost:8088/pirates/${id}`)
+    const getPirate = async (id) => {
+        await fetch(`https://localhost:7128/pirates/${id}`)
             .then(response => response.json())
             .then((res) => {
                 setCurrentPirate(res)
             })
     }
 
-    const getFavoritePirates = (id) => {
-        fetch(`http://localhost:8088/followers?followerId=${id}&_expand=pirate`)
-            .then(response => response.json())
-            .then((res) => {
-                setScallyWags(res)
+    const getFavoritePirates = async (id) => {
+        await fetch(`https://localhost:7128/followers?fId=${id}&expand=pirate`)
+            .then(async response => {
+                if (!response.ok) {
+                    throw new Error('Failed to fetch data');
+                }
+                return response.json();
             })
+            .then((res) => {
+                setScallyWags(res);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
     }
+    
 
     useEffect(() => {
         const pirate_id = localStorage.getItem("pirateId") ?? 0
